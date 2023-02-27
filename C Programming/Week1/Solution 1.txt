@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int returnMax(int a, int b, int c)
+{
+    int count=0;
+    while(a || b || c)
+    {
+        if(a>0)
+            a--;
+        if(b>0)
+            b--;
+        if(c>0)
+            c--;
+        count++;
+    }
+    return count;
+}
+
+int returnMin(int a, int b, int c)
+{
+    int count=0;
+    while(a && b && c)
+    {
+        a--;
+        b--;
+        c--;
+        count++;
+    }
+    return count;
+}
+
+
+int main()
+{
+    //assumptions: all the three numbers are positive integers
+    int a, b, c, count=0;
+    printf("Enter the three numbers:\n");
+    scanf("%d%d%d",&a,&b,&c);
+
+    printf("Maximum of the three numbers is %d\n",returnMax(a,b,c));
+    printf("Minimum of the three numbers is %d",returnMin(a,b,c));
+
+    return 0;
+}
+
+
+Output(compiled in OnlineGDB):
+Enter the three numbers:
+8 2 1
+Maximum of the three numbers is 8
+Minimum of the three numbers is 1
