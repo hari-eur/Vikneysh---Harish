@@ -1,0 +1,27 @@
+GCC's compilation process can be divided into four stages: 
+
+Preprocessing: 
+
+-> Preprocessor reads and processes the source code files. 
+-> Header files are included 
+-> Macros are expanded 
+-> Commands are removed 
+-> A processed source code file is produced 
+
+Compilation: 
+
+-> Compiler reads the processed source code file 
+-> Syntax checking, semantic checking, and code optimization takes place. 
+-> Assembly language code file is generated 
+
+Assembly: 
+
+-> Assembler reads the assembly language code 
+-> Assembly code is converted into machine code 
+
+Linking: 
+
+-> Linker reads the object code files 
+-> They are combined to create an executable file at this stage 
+
+Once generated, the executable file can be run on the target platform. 

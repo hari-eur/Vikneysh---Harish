@@ -1,0 +1,32 @@
+Program:
+
+#include <stdio.h>
+
+int main(int argc, char ** argv)
+{
+    int i=0;
+    printf("%d arguments have been entered\n\n",argc);
+    
+    //argc is the number of arguments
+    while(i<argc)
+    {
+        //argv is the array that contains the arguments
+        printf("Argument[%d]: %s\n",i,argv[i]);
+        i++;
+    }
+
+    return 0;
+}
+
+
+Command line arguments: arg1 arg2 arg3 arg4
+
+Output(compiled in OnlineGDB):
+
+5 arguments have been entered
+
+Argument[0]: ./a.out
+Argument[1]: arg1
+Argument[2]: arg2
+Argument[3]: arg3
+Argument[4]: arg4
