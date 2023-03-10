@@ -1,0 +1,52 @@
+List of Banks:
+1. State Bank of India
+2. HDFC Bank
+3. ICICI Bank
+4.Exit
+
+Choose a bank: 1
+
+State Bank of India
+1. Savings Account
+2. Current Account
+3. Demat Account
+4. Exit
+
+Choose an account: 2
+
+Current Account
+Interest Rate: 0%
+Minimum Balance: 10000
+Monthly Maintenance Fee: 500
+
+State Bank of India
+1. Savings Account
+2. Current Account
+3. Demat Account
+4. Exit
+
+Choose an account: 3
+
+Demat Account
+Annual Maintenance Fee: 500
+
+State Bank of India
+1. Savings Account
+2. Current Account
+3. Demat Account
+4. Exit
+
+Choose an account: 1
+
+Savings Account
+Interest Rate: 3%
+Minimum Balance: 1000
+Monthly Maintenance Fee: 0
+
+State Bank of India
+1. Savings Account
+2. Current Account
+3. Demat Account
+4. Exit
+
+Choose an account: 4
