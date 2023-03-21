@@ -1,0 +1,2 @@
+Enter a string: 12342bke342
+Sorted string: 12223bek344
