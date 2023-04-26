@@ -1,0 +1,17 @@
+/home/ubuntu/.hushlogin file.
+root@ubuntu:~$
+root@ubuntu:~$
+root@ubuntu:~$
+root@ubuntu:~$
+root@ubuntu:~$
+root@ubuntu:~$ mkdir sample
+root@ubuntu:~$ ls
+sample
+root@ubuntu:~$ cd sample/
+root@ubuntu:~/sample$ ls
+root@ubuntu:~/sample$ vi test.txt
+root@ubuntu:~/sample$ cat test.txt
+root@ubuntu:~/sample$
+root@ubuntu:~/sample$ ls
+test.txt
+root@ubuntu:~/sample$
